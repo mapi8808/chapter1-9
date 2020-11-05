@@ -22,8 +22,11 @@ main {
   position: relative;
   background-color: #eee;
 }
+.step-box:last-child {
+  margin-right: 0;
+}
 
-.step-img1 {s
+.step-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
   background-position: bottom;
@@ -55,4 +58,11 @@ main {
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
+}
+
+
+
+footer {
+  height: 50px;
+  background-color: #aaa;
 }
